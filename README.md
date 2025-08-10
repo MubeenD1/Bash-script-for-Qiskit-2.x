@@ -31,8 +31,14 @@ The environment is named 'qiskit' by default
 ```bash
 conda activate qiskit
 ```
+You should see ```(qiskit)``` next to the current user's shell session username
 
-To start coding, the user can open a jupyter session with
+To leave or deactivaate the environment, use:
+```bash
+conda deactivate
+```
+
+To start coding, the user can open a jupyter session with:
 ```bash
 jupyter notebook
 ```
